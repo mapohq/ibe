@@ -78,7 +78,7 @@ func (b *backupState) Layout(gtx C, th *material.Theme) D {
 	title.Font.Weight = text.Bold
 	title.Alignment = text.Middle
 
-	version := material.H5(th, fmt.Sprintf("version: %s", version.BuildVersion()))
+	version := material.Body1(th, fmt.Sprintf("version: %s", version.BuildVersion()))
 	version.Alignment = text.Middle
 
 	f := func(gtx C) D {
