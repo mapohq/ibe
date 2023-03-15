@@ -25,4 +25,4 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 )
 
-replace github.com/dunhamsteve/ios => github.com/mapohq/ios v0.0.0-20221015162759-b5c89991509f
+replace github.com/dunhamsteve/ios => github.com/mapohq/ios v0.0.0-20230315180435-b539fc98b403
